@@ -24,7 +24,7 @@ async def talk_with_yui(_, message: Message):
     # For Public and private groups
     elif c_type == "supergroup" or "group":
         # Regex to find if "yui" or "Yui" in the message text
-        if message.text and re.search(r'\bYui|yui\b', message.text):
+        if message.text and re.search(r'\bTexas|texas\b', message.text):
             quiz_text = message.text
         # For replied message
         elif r_msg:
