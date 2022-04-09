@@ -1,6 +1,6 @@
-# Yui
+# Texas
 
-***Yui, is a simple telegram chat bot made using OpenAI, AFFILIATE+ and Luna Chat bot***
+***Texas, is a simple telegram chat bot made using OpenAI and Luna Chat bot***
 
 ----
 
@@ -17,7 +17,7 @@ Deploying is easy 🤫! You can deploy this bot in Heroku or in a VPS ♥️! **
 #### Self-Hosting
 
 ```bash
-git clone https://github.com/Itz-fork/Yui.git
+git clone https://github.com/AliAryanTech/Texas.git
 cd Yui
 pip3 install -r requirements.txt
 ```
@@ -40,7 +40,6 @@ python3 -m Yui
   - Then go to [API Keys Section](https://beta.openai.com/account/api-keys)
   - From there you can copy your OpenAI API Key
 - `ARQ_KEY` - Your ARQ API Key. Get it from [@ARQRobot](https://t.me/ARQRobot)
-- `DEFAULT_CHATBOT` - The Default chatbot you want to use after OpenAI. (`affiliateplus` or `luna`)
 
 **For Heroku Users,**
 
@@ -53,7 +52,7 @@ python3 -m Yui
 
 ### Note ⚠️
 
-If you want to increase the response length limit change [Max Response Length Limit Value](https://github.com/Itz-fork/Yui/blob/ef431bb67f5c51ee3d5a634d91a2b0f740192d36/Yui/data/defaults.py#L19) to whatever you want (Value must be a integer). Also increasing this can spend your OpenAI credits quickly
+If you want to increase the response length limit change [Max Response Length Limit Value](https://github.com/AliAryanTech/Texas/blob/ef431bb67f5c51ee3d5a634d91a2b0f740192d36/Yui/data/defaults.py#L19) to whatever you want (Value must be a integer). Also increasing this can spend your OpenAI credits quickly
 
 ## Support 🍪
 
